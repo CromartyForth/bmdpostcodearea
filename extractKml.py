@@ -1,6 +1,6 @@
 def getPolygon():
-    with open("Calloutarea.kml", "r") as f:
-        s = f.read()
+    with open("Calloutarea.kml", "r") as kmlfile:
+        s = kmlfile.read()
 
         start = "<coordinates>"
         finish = "</coordinates>"
